@@ -1,0 +1,12 @@
+CREATE DATABASE SamaroDB;
+GO
+
+USE SamaroDB;
+GO
+
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY IDENTITY(1,1),
+    FullName VARCHAR(100),
+    Email VARCHAR(100) UNIQUE,
+    PasswordHash VARCHAR(255)
+);

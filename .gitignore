@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+
+# SQL Server LocalDB
+App_Data/*.mdf
+App_Data/*.ldf
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# NuGet
+packages/
