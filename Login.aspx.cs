@@ -49,6 +49,15 @@ namespace Samaro
                 lbl_msg.Text = "Invalid login cradantials";
             }
 
+
+        }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            txt_email.Text = "";
+            txt_password.Text = "";
+
+            txt_email.Focus();
         }
     }
 }
