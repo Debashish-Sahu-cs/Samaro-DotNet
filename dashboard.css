@@ -1,0 +1,126 @@
+﻿body {
+    margin: 0;
+    font-family: Segoe UI;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+    .sidebar a {
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+        .sidebar a:hover {
+            background: #eee;
+        }
+
+.main {
+    flex: 1;
+    background: #fff;
+}
+
+.topbar {
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.profile-container {
+    padding: 30px;
+}
+
+.profile-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.profile-subtitle {
+    color: gray;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.photo-box {
+    text-align: center;
+    width: 200px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #eee;
+    margin: auto;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.photo-title {
+    margin-top: 10px;
+    display: block;
+}
+
+.form-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 50%;
+}
+
+.input-box {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.btn-save {
+    background: #8b005d;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 15px;
+}
+
+.info-row {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.info-card {
+    width: 50%;
+}
+
+.readonly-box {
+    width: 100%;
+    padding: 12px;
+    background: #eee;
+    border-radius: 6px;
+    border: none;
+}

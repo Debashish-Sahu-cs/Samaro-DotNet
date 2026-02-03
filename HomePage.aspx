@@ -17,7 +17,8 @@
             <asp:HyperLink ID="lnk_galleries" runat="server" Text="Sample Galleries" NavigateUrl="#galleries"/>
             <asp:HyperLink ID="lnk_pricing" runat="server" Text="Pricing" NavigateUrl="#pricing"/>
             <asp:HyperLink ID="lnk_invites" runat="server" Text="Invites" NavigateUrl="#invites"/>
-            <asp:Button ID="btn_login" runat="server" Text="Login" CssClass="btn-nav"/>
+            <asp:HyperLink ID="lnk_contact" runat="server" Text="Contact" NavigateUrl="Contact.aspx"/>
+            <asp:Button ID="btn_login" runat="server" Text="Login" CssClass="btn-nav" OnClick="btn_login_Click"/>
             <asp:Button ID="btn_tryFree" runat="server" Text="Try for free" CssClass="btn-cta"/>
         </div>
     </div>

@@ -7,182 +7,146 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Samaro
+namespace System.Web.UI
 {
 
 
-    public partial class HomePage
+    public partial class Page
     {
 
         /// <summary>
-        /// lnk_solutions control.
+        /// lbl_greeting control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnk_solutions;
+        protected global::System.Web.UI.WebControls.Label lbl_greeting;
 
         /// <summary>
-        /// lnk_galleries control.
+        /// lbl_subtitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnk_galleries;
+        protected global::System.Web.UI.WebControls.Label lbl_subtitle;
 
         /// <summary>
-        /// lnk_pricing control.
+        /// lbl_profilePhoto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnk_pricing;
+        protected global::System.Web.UI.WebControls.Label lbl_profilePhoto;
 
         /// <summary>
-        /// lnk_invites control.
+        /// lbl_selfiePhoto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnk_invites;
+        protected global::System.Web.UI.WebControls.Label lbl_selfiePhoto;
 
         /// <summary>
-        /// lnk_contact control.
+        /// lbl_firstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnk_contact;
+        protected global::System.Web.UI.WebControls.Label lbl_firstName;
 
         /// <summary>
-        /// btn_login control.
+        /// txt_firstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_login;
+        protected global::System.Web.UI.WebControls.TextBox txt_firstName;
 
         /// <summary>
-        /// btn_tryFree control.
+        /// lbl_lastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_tryFree;
+        protected global::System.Web.UI.WebControls.Label lbl_lastName;
 
         /// <summary>
-        /// lbl_heroTitle control.
+        /// txt_lastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_heroTitle;
+        protected global::System.Web.UI.WebControls.TextBox txt_lastName;
 
         /// <summary>
-        /// lbl_heroSubtitle control.
+        /// chk_whatsapp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_heroSubtitle;
+        protected global::System.Web.UI.WebControls.CheckBox chk_whatsapp;
 
         /// <summary>
-        /// btn_bookDemo control.
+        /// chk_facial control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_bookDemo;
+        protected global::System.Web.UI.WebControls.CheckBox chk_facial;
 
         /// <summary>
-        /// btn_businessSignup control.
+        /// btn_saveProfile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_businessSignup;
+        protected global::System.Web.UI.WebControls.Button btn_saveProfile;
 
         /// <summary>
-        /// lbl_stat1 control.
+        /// lbl_phoneTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_stat1;
+        protected global::System.Web.UI.WebControls.Label lbl_phoneTitle;
 
         /// <summary>
-        /// lbl_stat2 control.
+        /// txt_phone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_stat2;
+        protected global::System.Web.UI.WebControls.TextBox txt_phone;
 
         /// <summary>
-        /// lbl_stat3 control.
+        /// lbl_emailTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_stat3;
+        protected global::System.Web.UI.WebControls.Label lbl_emailTitle;
 
         /// <summary>
-        /// lbl_featuresTitle control.
+        /// txt_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_featuresTitle;
-
-        /// <summary>
-        /// lbl_aiFacial control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_aiFacial;
-
-        /// <summary>
-        /// lbl_camera2cloud control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_camera2cloud;
-
-        /// <summary>
-        /// lbl_whatsappBot control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_whatsappBot;
-
-        /// <summary>
-        /// lbl_gallery control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_gallery;
+        protected global::System.Web.UI.WebControls.TextBox txt_email;
     }
 }

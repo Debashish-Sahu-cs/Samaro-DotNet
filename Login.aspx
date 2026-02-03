@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body style="background-color: #f1f1f1 ">
-    <form id="form1" runat="server">
+    <form id="frm_login" runat="server">
             <div style="padding: 20px; width:500px; margin:200px auto; height: 436px; background-color: #FFFFFF; border-radius:10px;">
                 <br /><br />
 
@@ -33,7 +33,10 @@
 
                 <asp:Button ID="btn_clear" runat="server" Text="Clear" OnClick="btnClear_Click" Width="217px" style="border:2px solid #A55578; background-color:#ffffff; color:#A55578; padding:10px; border-radius:5px; font-size:18px;" />
                 <br /><br />
-
+                <br /><br />
+                <asp:Label ID="lbl_note" runat="server" Text="Don't have an account?" ForeColor="Gray">
+                    <a ID="lnk_login" href="Registration.aspx" aria-label="login link" runat="server"  >Register</a>
+                </asp:Label>
                 <asp:Label ID="lbl_msg" runat="server" ForeColor="Red"></asp:Label>
             </div>
     </form>

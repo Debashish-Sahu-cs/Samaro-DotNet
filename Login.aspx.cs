@@ -10,7 +10,6 @@ namespace Samaro
 {
     public partial class Login : System.Web.UI.Page
     {
-        
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -41,8 +40,16 @@ namespace Samaro
 
             if (count > 0)
             {
+                string q = "SELECT UserID FROM Users WHERE Email=@email";
+                SqlCommand cmd2 = new SqlCommand(q, conn);
+                cmd2.Parameters.AddWithValue("@email", email);
+
+                int userId = (int)cmd2.ExecuteScalar();
+
+                Session["UserID"] = userId;
                 Session["email"] = email;
-                Response.Redirect("HomePage.aspx");
+
+                Response.Redirect("Dashboard.aspx");
             }
             else
             {

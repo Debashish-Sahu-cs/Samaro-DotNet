@@ -11,8 +11,17 @@ namespace Samaro
 {
 
 
-    public partial class HomePage
+    public partial class Contact
     {
+
+        /// <summary>
+        /// frm_contact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm frm_contact;
 
         /// <summary>
         /// lnk_solutions control.
@@ -78,111 +87,129 @@ namespace Samaro
         protected global::System.Web.UI.WebControls.Button btn_tryFree;
 
         /// <summary>
-        /// lbl_heroTitle control.
+        /// lbl_heading control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_heroTitle;
+        protected global::System.Web.UI.WebControls.Label lbl_heading;
 
         /// <summary>
-        /// lbl_heroSubtitle control.
+        /// lbl_firstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_heroSubtitle;
+        protected global::System.Web.UI.WebControls.Label lbl_firstName;
 
         /// <summary>
-        /// btn_bookDemo control.
+        /// txt_firstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_bookDemo;
+        protected global::System.Web.UI.WebControls.TextBox txt_firstName;
 
         /// <summary>
-        /// btn_businessSignup control.
+        /// lbl_lastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_businessSignup;
+        protected global::System.Web.UI.WebControls.Label lbl_lastName;
 
         /// <summary>
-        /// lbl_stat1 control.
+        /// txt_lastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_stat1;
+        protected global::System.Web.UI.WebControls.TextBox txt_lastName;
 
         /// <summary>
-        /// lbl_stat2 control.
+        /// lbl_phone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_stat2;
+        protected global::System.Web.UI.WebControls.Label lbl_phone;
 
         /// <summary>
-        /// lbl_stat3 control.
+        /// txt_phone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_stat3;
+        protected global::System.Web.UI.WebControls.TextBox txt_phone;
 
         /// <summary>
-        /// lbl_featuresTitle control.
+        /// lbl_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_featuresTitle;
+        protected global::System.Web.UI.WebControls.Label lbl_email;
 
         /// <summary>
-        /// lbl_aiFacial control.
+        /// txt_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_aiFacial;
+        protected global::System.Web.UI.WebControls.TextBox txt_email;
 
         /// <summary>
-        /// lbl_camera2cloud control.
+        /// lbl_subject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_camera2cloud;
+        protected global::System.Web.UI.WebControls.Label lbl_subject;
 
         /// <summary>
-        /// lbl_whatsappBot control.
+        /// txt_subject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_whatsappBot;
+        protected global::System.Web.UI.WebControls.TextBox txt_subject;
 
         /// <summary>
-        /// lbl_gallery control.
+        /// lbl_message control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_gallery;
+        protected global::System.Web.UI.WebControls.Label lbl_message;
+
+        /// <summary>
+        /// txt_message control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_message;
+
+        /// <summary>
+        /// btn_submit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_submit;
     }
 }

@@ -11,17 +11,26 @@ namespace Samaro
 {
 
 
-    public partial class Login
+    public partial class Registration
     {
 
         /// <summary>
-        /// frm_login control.
+        /// frm_registration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm frm_login;
+        protected global::System.Web.UI.HtmlControls.HtmlForm frm_registration;
+
+        /// <summary>
+        /// txt_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_name;
 
         /// <summary>
         /// txt_password control.

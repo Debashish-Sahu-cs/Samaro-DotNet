@@ -1,0 +1,38 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DashboardMaster.master.cs"  %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title> Samaro - Event hosting latform</title>
+    <link href="dashboard.css" rel="stylesheet" />
+</head>
+
+<body>
+<form runat="server">
+
+<div class="layout">
+
+    <!-- LEFT SIDEBAR -->
+    <div class="sidebar">
+        <img src="https://framerusercontent.com/images/QIOvgXKPEVIPMZ3GE7z6Ek32HI.png?width=7680&height=4320" alt="Samaro Logo" style="width:150px ; height:80px;" />
+        <asp:HyperLink ID="lnk_dashboard" runat="server" NavigateUrl="Dashboard.aspx">Dashboard</asp:HyperLink>
+        <asp:HyperLink ID="lnk_profile" runat="server" NavigateUrl="Profile.aspx">Profile</asp:HyperLink>
+        <asp:HyperLink ID="lnk_account" runat="server" NavigateUrl="MyAccount.aspx">My Account</asp:HyperLink>
+        <asp:HyperLink ID="lnk_rewards" runat="server" NavigateUrl="Rewards.aspx">Rewards</asp:HyperLink>
+        <asp:HyperLink ID="lnk_archive" runat="server" NavigateUrl="Archive.aspx">Archive</asp:HyperLink>
+    </div>
+
+    <!-- MAIN AREA -->
+    <div class="main">
+        <div class="topbar">
+            <asp:Label ID="lbl_user" runat="server" />
+        </div>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+
+</div>
+
+</form>
+</body>
+</html>
